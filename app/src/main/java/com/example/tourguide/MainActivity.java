@@ -11,6 +11,7 @@ import android.os.Handler;
 import android.view.View;
 
 import com.google.android.material.tabs.TabLayout;
+import com.google.android.material.tabs.TabLayoutMediator;
 
 public class MainActivity extends AppCompatActivity {
 
