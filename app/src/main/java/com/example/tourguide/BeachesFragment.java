@@ -24,7 +24,8 @@ public class BeachesFragment extends Fragment {
 
         ArrayList<Beaches> beachesList = new ArrayList<>();
 
-        beachesList.add(new Beaches("beaches title 1", "beaches summary 1", R.drawable.beach_temp));
+        beachesList.add(new Beaches("beaches title 1", "The beaches are beautiful and some of the best weather you can imagine.\n" +
+                "                This beach is located right in the heart of Old Town with the world famous Malecon to walk along.", R.drawable.beach_temp));
         beachesList.add(new Beaches("beaches title 2", "beaches summary 2", R.drawable.beach_temp));
         beachesList.add(new Beaches("beaches title 3", "beaches summary 3", R.drawable.beach_temp));
         beachesList.add(new Beaches("beaches title 4", "beaches summary 4", R.drawable.beach_temp));
