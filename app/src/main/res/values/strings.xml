@@ -1,6 +1,140 @@
 <resources>
+
+    // App name and header picture
     <string name="app_name">Tour Guide</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="puerto_vallarta_sign">Puerto Vallarta Sign</string>
+
+    // Beaches Summary text
+    <string name="LosMuertos">Probably the most famous, most visited and most popular beaches in town,
+        Los Muertos Beach and Olas Altas are located on the south side of the Malecon and Cuale River Island,
+        quite a few international hotels and resorts serve as its background, great for people watching,
+        families and it’s fine for swimming and other seaside activities.</string>
+
+    <string name="ConchasChinasBeach">Conchas Chinas Beach is, without a doubt, one of the most fascinating
+        and striking beaches in downtown Puerto Vallarta, the Banderas Bay area and Mexican beaches in general.
+        The melding of various ecosystems in one location, together with its graceful coast and underwater
+        profile has given the place a beauty that must be seen to be understood..</string>
+
+    <string name="PlayaCamarones">One of the cleanest and most important tourist beaches in Puerto Vallarta, 
+        Camarones Beach (Playa Camarones, “Shrimp Beach”) is a wide piece of clear sand that extends from Villa 
+        Premiere to the northern edge of the Malecon in downtown PV. An area that includes dozens of diverse shops, 
+        bars and restaurants. Excellent sunbathing beach, you’ll also enjoy the food and drinks at one of the 
+        many bars and restaurants that are on the shores of this beach.</string>
+
+    <string name="LasAmapas">This small beach, Las Amapas, is located a little bit south of Viejo Vallarta (Romantic Zone), 
+        the area south of the Cuale River in Puerto Vallarta, Jalisco, Mexico. Las Amapas Beach is next to Los 
+        Muertos Beach and El Púlpito, the rocky formation, like a peninsula, that sticks out on the south end of 
+        Playa Los Muertos in PV.</string>
+
+    <string name="PlayaDestiladeras">It is one of the most popular beaches among the locals, they know it is a wide,
+        shallow water beach, something that makes it incredibly kid-friendly. Little by little it’s becoming less of a
+        secret and is now also visited by tourists from the US and Canada.</string>
+
+    <string name="PlayaDeOro">Surrounded by an arc of hotels and resorts, you’ll enjoy a variety of recreational activities and water sports
+        that include parasailing, water skiing and popular for swimming too. Playa de Oro is one of the many fine beaches in
+        Vallarta, both for residents and visitors.</string>
+
+    // Beach Titles
+    <string name="LosMuertosTitle">Los Muertos</string>
+    <string name="ChinasBeachTitle">Conchas Chinas Beach</string>
+    <string name="CamaronesTitle">Playa Camarones</string>
+    <string name="AmapasTitle">Las Amapas</string>
+    <string name="DestiladerasTitle">Playa Destiladeras</string>
+    <string name="OroTitle">Playa de Oro</string>
+
+    // restaurant summary text
+    <string name="LosMuertosBrewing">Los Muertos Brewing, Puerto Vallarta’s first craft brewery! Located in the heart of Old
+        Town, Los Muertos Brewing is an authentic, cantina style brew-pub serving a variety of artisanal beers including IPA,
+        malty ambers, stouts, and even fruit infused ales!</string>
+    <string name="laMadalena">Contemporary Mexican restaurant. An innovative fun, avant-garde design, great mixology and
+        audiovisual setting.</string>
+    <string name="cafeDesArtistes">The Gourmet Tradition of Puerto Vallarta Elegance and exclusive ambiances have placed
+        Café des Artistes as an iconic reference of haute cuisine in Puerto Vallarta for over 30 years. The excellence in
+        service and high-quality food, make of this restaurant, an ideal venue for intimate celebrations or important business
+        reunions.</string>
+    <string name="laLecheSummary">We like to reinterpret the culinary tradition irreverently, taking full advantage of local
+        products to reinvent the menu every day, making La Leche a fun, delicious and extraordinary space to live together.</string>
+    <string name="greenPlaceSummary">Vegetarian and vegan food menu with burgers, salads, sandwiches, plus smoothies and coffee
+        drinks. Fully vegan since Jun 2020.</string>
+    <string name="casaTradicional">Casa Traditional offers a wide variety of beloved dishes, from hot Molcajetes to Cochinita Pibil,
+        Tampiqueña and mouthwatering Carnitas to flawless flan, there is something for everyone! As far as drinks, try our
+        refreshing hibiscus margaritas and house made sangria. The ambiance is as colorful and friendly as Mexico itself.</string>
+
+    // restaurant titles
+    <string name="LMBTitle">Los Muertos Brewing</string>
+    <string name="CasaTradicional">Casa Tradicional \nCocina Mexicana</string>
+    <string name="greenPlace">Green Place</string>
+    <string name="laLeche">La leche</string>
+    <string name="desArtistes">Cafe Des Artistes</string>
+    <string name="madalena">La Madalena</string>
+
+    // restaurant addresses
+    <string name="losMuertosAddress">Lázaro Cárdenas 302, Zona Romántica, Emiliano Zapata, \n48380 Puerto Vallarta, Jal., Mexico</string>
+    <string name="madalenaAddress">Av. Francisco Medina Ascencio 2025, Zona Hotelera, Las Glorias, \n48333 Puerto Vallarta, Jal., Mexico</string>
+    <string name="artistesAddress">Calle Guadalupe Sánchez 740, Centro, 48300 Puerto Vallarta, \nJal., Mexico</string>
+    <string name="lecheAddress">Km 2.5, Blvrd Francisco Medina Ascencio, Las Glorias, 48333 \nPuerto Vallarta, Jal., Mexico</string>
+    <string name="greenAddress">Calle Honduras 309, 5 de Diciembre, 48350 Puerto Vallarta, \nJal., Mexico</string>
+    <string name="tradicionalAddress">Calle Zaragoza 245, Proyecto escola, Centro, 48300 \nPuerto Vallarta, Jal., Mexico</string>
+
+    // hotel titles
+    <string name="tropicon">Tropicon Hotel</string>
+    <string name="paramar">The Paramar</string>
+    <string name="flamingo">Flamingo Vallarta</string>
+    <string name="secrets">Secrets</string>
+    <string name="fiesta">Fiesta Inn</string>
+    <string name="hacienda">Hacienda \nBuenaventura</string>
+
+    // hotel addresses
+    <string name="tropiconAddress">Amapas 214, Zona Romántica, PlayaLos Muertos, \n48380 Puerto Vallarta, Jal., Mexico</string>
+    <string name="paramarAddress">Paraguay 1272, 5 de Diciembre, 48350 Puerto Vallarta, \nJal., Mexico</string>
+    <string name="flamingoAddress">Condomunious Puerto Iguana 136, Isla Iguana, \n48335 Puerto Vallarta, Jal., Mexico</string>
+    <string name="secretsAddress">David Alfaro Siqueiros 164, Zona Hotelera, Las Glorias, \n48333 Puerto Vallarta, Jal., Mexico</string>
+    <string name="fiestaAddress">Blvrd Francisco Medina Ascencio 2479-Interior A, \nZona Hotelera Nte., 48333 Puerto Vallarta, Jal., Mexico</string>
+    <string name="haciendaAddress">Blvrd Francisco Medina Ascencio, Zona Hotelera, \nZona Hotelera Nte., 48310 Puerto Vallarta, Jal., Mexico</string>
+
+    // hotel summary text
+    <string name="trpiconHotel">If you’re looking for a family-friendly hotel in Puerto Vallarta, look no further than Tropicana Hotel.
+    As your “home away from home,” the hotel rooms offer air conditioning, and getting online is easy, with free internet access available.</string>
+    <string name="theParamar">Ideally situated in the centre of Puerto Vallarta, The Paramar provides express check-in and check-out and
+        free private parking. Boasting family rooms, this property also provides guests with a terrace.</string>
+    <string name="flamingoVallarta">Welcome  to Flamingo Vallarta Hotel and Marina Explore a place filled with life in the heart of theMarina
+        Vallarta, minutes away from the best attractions and with the family and business friendly atmosphere that you are looking for.</string>
+    <string name="secretsSummary">Romantic. Refined. Remarkable. Located on the golden sand beaches of the Pacific coast within walking distance
+        of the famous El Malecon boardwalk, this vibrant oceanfront resort provides adults 24-hour room service, daily refreshed mini-bars,
+        entertainment and Unlimited-Luxury.</string>
+    <string name="fiestaInnSummary">The hotel is located in the La Isla shopping center. In addition to its 144 guest rooms, the hotel is home
+        to the 360° Lounge, where guests will find the B-On business center, La Isla restaurant, and a convenience store and self-service area.</string>
+    <string name="haciendaSummary">Enjoy the unique charm of a real Mexican Hacienda surrounded by beautiful gardens, traditional decor and perfect
+    facilities for an unforgettable vacation.</string>
+
+    // tours titles
+    <string name="zipLine">Outdoor Zip Line Adventure</string>
+    <string name="caletasBeach">Las Caletas Beach Hideaway</string>
+    <string name="utv">UTV Tours</string>
+    <string name="parasailing">Parasailing</string>
+    <string name="scubaDive">Scuba Dive at Mariets Islands</string>
+    <string name="fishing">Fishing</string>
+
+    // tour summary text
+    <string name="zipLineSummary">Rappel down a waterfall, hike through the jungle, ride exhilarating zip lines, and experience our NEW Roller
+        Coaster Zipline, all the speed of a zipline with the unique sensation of a roller coaster suspended by cables from the trees. It is
+        truly an adventure of a lifetime!</string>
+    <string name="caletasBeachSummary">Simply hop on our boat and come with us to the shores of our exclusive and secluded beach hideaway,
+        along the Riviera Nayarit and nestled in the Sierra Madre Mountains. Las Caletas, Puerto Vallarta is one of the top four secluded
+        tropical beaches in the world—accessible only by boat.</string>
+    <string name="utvSummary">On our one-of-a-kind off-road expedition, you will get the chance to hop aboard a Polaris RZR UTV for an exciting
+        off-roading tour that takes you across dirt trails and cuts through breathtaking tropical forests located just south of Puerto Vallarta. </string>
+    <string name="parasailingSummary">From your secure spot in the sky, you’ll float along on a warm, tropical ocean breeze. While parasailing, you
+    may even catch a glimpse of dolphins, manta rays or whales playing in the surf. An exhilarating yet safe trip for the adventurer in all of us.</string>
+    <string name="scubaDiveSummary">Travel through these clear waters and see volcanic formations, arches, spires, tunnels, and caves, which create
+    the perfect setting for an amazing experience. You’ll see tropical fish, giant manta rays and other creatures that will convince you that the
+    Mexican Pacific is a truly amazing place for diving and snorkeling.</string>
+    <string name="fishingSummary">Puerto Vallarta fishing is top-notch all year round.  With trophy-size Marlin, Sailfish, Mahi Mahi, and Tuna,
+        among many other Sportfish, a Vallarta fisherman seldom goes home empty-handed.</string>
+
+    // layout strings
+    <string name="title">title</string>
+    <string name="address">Address</string>
+    <string name="summary">Summary</string>
+
 </resources>

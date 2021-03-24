@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tours_list_view"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ToursFragment">
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Tours"
-        android:layout_gravity="center"/>
-
-</FrameLayout>
+    android:background="@color/black"
+    android:dividerHeight="10dp"
+    android:paddingTop="8dp"
+    tools:context=".ToursFragment" />

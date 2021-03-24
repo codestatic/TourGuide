@@ -19,11 +19,11 @@
             android:background="@color/white"
             app:layout_constraintTop_toTopOf="parent">
 
-        <ImageView
-            android:id="@+id/image_view"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:src="@drawable/malecon_banner" />
+            <ImageView
+                android:id="@+id/image_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/malecon_banner" />
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -31,25 +31,46 @@
             android:id="@+id/divider_line"
             android:layout_width="match_parent"
             android:layout_height="1dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="8dp"
             android:background="@color/black"
-            android:layout_margin="8dp"
-            app:layout_constraintTop_toBottomOf="@id/image_conatainer"/>
+            app:layout_constraintTop_toBottomOf="@id/image_conatainer" />
 
         <TextView
             android:id="@+id/title_view"
             style="@style/listViewHeader"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="title"
-            android:layout_marginTop="6dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/title"
+            app:layout_constraintBottom_toTopOf="@+id/summary_view"
+            app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/divider_line" />
+
+        <TextView
+            android:id="@+id/address_phone"
+            style="@style/listViewAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="12dp"
+            android:text="@string/address"
+            android:textAlignment="inherit"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/divider_line" />
 
         <TextView
             android:id="@+id/summary_view"
             style="@style/listViewSummary"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Summary"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="12dp"
+            android:text="@string/summary"
             app:layout_constraintTop_toBottomOf="@+id/title_view" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>

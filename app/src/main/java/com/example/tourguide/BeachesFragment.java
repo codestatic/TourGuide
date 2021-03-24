@@ -20,19 +20,18 @@ public class BeachesFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View rootView =  inflater.inflate(R.layout.fragment_beaches, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_beaches, container, false);
 
-        ArrayList<Beaches> beachesList = new ArrayList<>();
+        ArrayList<Items> itemsList = new ArrayList<>();
 
-        beachesList.add(new Beaches("beaches title 1", "The beaches are beautiful and some of the best weather you can imagine.\n" +
-                "                This beach is located right in the heart of Old Town with the world famous Malecon to walk along.", R.drawable.beach_temp));
-        beachesList.add(new Beaches("beaches title 2", "beaches summary 2", R.drawable.beach_temp));
-        beachesList.add(new Beaches("beaches title 3", "beaches summary 3", R.drawable.beach_temp));
-        beachesList.add(new Beaches("beaches title 4", "beaches summary 4", R.drawable.beach_temp));
-        beachesList.add(new Beaches("beaches title 5", "beaches summary 5", R.drawable.beach_temp));
-        beachesList.add(new Beaches("beaches title 6", "beaches summary 6", R.drawable.beach_temp));
+        itemsList.add(new Items(getString(R.string.LosMuertosTitle), (getString(R.string.LosMuertos)), R.drawable.los_muertos));
+        itemsList.add(new Items(getString(R.string.ChinasBeachTitle), (getString(R.string.ConchasChinasBeach)), R.drawable.conchas_chinas));
+        itemsList.add(new Items(getString(R.string.CamaronesTitle), (getString(R.string.PlayaCamarones)), R.drawable.playa_camarones));
+        itemsList.add(new Items(getString(R.string.AmapasTitle), (getString(R.string.LasAmapas)), R.drawable.playa_amapas));
+        itemsList.add(new Items(getString(R.string.DestiladerasTitle), (getString(R.string.PlayaDestiladeras)), R.drawable.destiladeras));
+        itemsList.add(new Items(getString(R.string.OroTitle), (getString(R.string.PlayaDeOro)), R.drawable.playa_oro));
 
-        BeachesAdapter adapter = new BeachesAdapter(getActivity(), beachesList);
+        ItemsAdapter adapter = new ItemsAdapter(getActivity(), itemsList);
 
         ListView listview = rootView.findViewById(R.id.beach_list_view);
 
